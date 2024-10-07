@@ -6,7 +6,7 @@ import java.time.LocalDate;
 /**
  * @author Mossab Arektout
  **/
-public class ProductManager {
+public class ProductManager{
     private Product product;
     private Review review;
 
@@ -37,4 +37,6 @@ public class ProductManager {
         txt.append('\n');
         System.out.println(txt);
     }
+
+
 }
